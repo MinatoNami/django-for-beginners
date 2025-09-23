@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # Local apps
     'accounts.apps.AccountsConfig',
     'pages.apps.PagesConfig',
+    "articles.apps.ArticlesConfig",
 ]
 
 MIDDLEWARE = [
@@ -114,7 +115,7 @@ LOGOUT_REDIRECT_URL = 'home'
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Singapore'
 
 USE_I18N = True
 
